@@ -13,8 +13,8 @@ RAG evaluation dashboard that measures pipeline quality across four metrics — 
 `Python` `ChromaDB` `Gemini API` `Streamlit` `Plotly`
 
 **[Wayfare](https://github.com/aamirabbas858/wayfare)** &nbsp;·&nbsp; [Live](https://wayfare-xi.vercel.app)  
-AI travel planner with real-time web search, day-by-day itineraries, honest pricing estimates, and a colour-coded map. Uses Gemini for planning and Tavily for live search.  
-`Next.js` `Gemini API` `Tavily` `Mapbox`
+AI travel planner that forces real-time web search before every recommendation — so it knows what an Oyster card costs this week instead of guessing from training data. Features a day-color-coded Mapbox map, honest budget reality checks, and streaming output. Went through three LLM backends deliberately: started on Claude for output quality, migrated to Groq (Llama 3.3 70B) to bring infrastructure costs to zero, then moved to Gemini for cleaner structured JSON output and consistency with the rest of my stack.  
+`Next.js` `TypeScript` `Gemini API` `Groq` `Tavily` `Mapbox`
 
 **[FIFA World Cup 2026 Predictor](https://github.com/aamirabbas858/FIFA-World-Cup-2026-Prediction-ML-Model)** &nbsp;·&nbsp; [Live](https://fifa-world-cup-2026-prediction-ml-model-001.streamlit.app)  
 ML system predicting the 2026 World Cup winner using logistic regression trained on historical match data, with 10,000 Monte Carlo simulations of the full 48-team bracket.  
